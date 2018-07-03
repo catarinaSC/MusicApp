@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.catarina.musicapp.MainActivity"
+    android:background="@color/colorAccent">
+
+    <ImageView
+        style="@style/main_imageview"
+        android:src="@mipmap/ic_launcher1"
+        android:layout_above="@+id/Playlist"
+        />
+
+    <TextView
+        android:id="@+id/Playlist"
+        android:text="@string/playlist"
+        android:background="@drawable/textview_background"
+        style="@style/main_textViews"
+        android:clickable="true"
+        />
+    <TextView
+        android:id="@+id/new_search"
+        android:text="@string/search"
+        android:background="@drawable/textview_background"
+        android:layout_below="@+id/Playlist"
+        style="@style/main_textViews"
+        android:clickable="true"
+        />
+
+</RelativeLayout>

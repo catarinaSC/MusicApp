@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@drawable/background</item>
+        <item name="colorPrimaryDark">#607D8B</item>
+        <item name="colorAccent">#000000</item>
+    </style>
+    <style name="main_textViews">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">12dp</item>
+        <item name="android:layout_centerVertical">true</item> 
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">56sp</item>
+        </style>
+    <style name="main_imageview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_margin">32dp</item>
+    </style>
+    <style name="playlist_items">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+</resources>
