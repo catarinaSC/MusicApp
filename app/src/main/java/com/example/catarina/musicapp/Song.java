@@ -20,24 +20,12 @@ public class Song {
         return imageResourceID;
     }
 
-    public void setImageResourceID(int imageResourceID) {
-        this.imageResourceID = imageResourceID;
-    }
-
     public String getArtistOrder() {
         return artistOrder;
     }
 
-     public void setArtistOrder(String artistOrder) {
-        this.artistOrder = artistOrder;
-    }
-
     public String getSongOrder() {
         return songOrder;
-    }
-
-    public void setSongOrder(String songOrder) {
-        this.songOrder = songOrder;
     }
 
     public boolean isImageProvided() {

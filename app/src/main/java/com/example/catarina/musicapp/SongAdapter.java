@@ -17,12 +17,9 @@ public class SongAdapter extends ArrayAdapter<Song> {
 
     private Context mContext;
 
-    private ArrayList<Song> songs = new ArrayList<>();
-
     public SongAdapter(Context context, ArrayList<Song> songs) {
-        super(context, 0, songs);
+        super(context,0, songs);
         mContext = context;
-
     }
 
         @Override
@@ -34,7 +31,7 @@ public class SongAdapter extends ArrayAdapter<Song> {
             if (listItemView == null)
                 listItemView = LayoutInflater.from(getContext()).inflate(R.layout.song_list, parent, false);
 
-            Song songList = songs.get(position);
+            Song songList = getItem(position);
 
             TextView song = (TextView) listItemView.findViewById(R.id.song_text_view);
             song.setText(songList.getSongOrder());
