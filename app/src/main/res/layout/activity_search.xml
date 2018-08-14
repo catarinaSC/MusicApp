@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.catarina.musicapp.SearchActivity"
     android:padding="16dp"
     android:background="@color/colorAccent">
 
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        />
 
     <EditText
         android:id="@+id/search_input"
@@ -17,4 +27,5 @@
         android:inputType="text"
         android:drawableLeft="@drawable/ic_search_black_24dp"
         />
+
    </LinearLayout>

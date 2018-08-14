@@ -27,6 +27,7 @@ android:background="@color/colorAccent">
         android:background="#FFC107"
         android:src="@drawable/ic_action_name"
         android:layout_alignParentRight="true"/>
+
 </RelativeLayout>
 
 <TextView
