@@ -17,9 +17,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Playlist_item">
+        <activity android:name=".Playlist_item"
+            android:label="@string/playlist">
         </activity>
-        <activity android:name=".SearchActivity"></activity>
+        <activity android:name=".SearchActivity"
+            android:label="@string/search"></activity>
     </application>
 
 </manifest>
